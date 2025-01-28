@@ -1,8 +1,9 @@
+import HeroSectionLayout from "./hero-section"
 
 const LandingPageLayout = () => {
   return (
     <div>
-      Landing Page
+      <HeroSectionLayout />
     </div>
   )
 }

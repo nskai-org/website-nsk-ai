@@ -1,10 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
-import LandingPageLayout from "../components/landing-page";
+import LandingPage from "../pages/landing-page/LandingPage";
+import NavigationLayout from "../components/landing-page/navigation";
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <LandingPageLayout />,
+    element: <NavigationLayout />,
+    children: [
+      {
+        index: true,
+        element: <LandingPage />
+      }
+    ]
   },
 ]);
