@@ -2,7 +2,7 @@ import HeroSectionLayout from "./hero-section"
 
 const LandingPageLayout = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <HeroSectionLayout />
     </div>
   )

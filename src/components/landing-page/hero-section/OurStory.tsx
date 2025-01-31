@@ -1,4 +1,4 @@
-import { Exclamation, LearnMore } from "../../../assets/svg";
+import { Exclamation, LearnMore, Rectangle } from "../../../assets/svg";
 
 const OurStory = () => {
   return (
@@ -16,6 +16,7 @@ const OurStory = () => {
       <div className="relative">
         <img src="./our-story-1.svg" alt="Big_Bg"  className="relative z-30"/>
         <img className="absolute top-[-20px] left-[-6rem]" src={Exclamation} alt="Exclamation" />
+        <img className="absolute top-[-3rem] right-[-3rem]" src={Rectangle} alt="Exclamation" />
       </div>
     </div>
   );
