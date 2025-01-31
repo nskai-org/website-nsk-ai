@@ -16,7 +16,7 @@ function App() {
   },[])
   return (
     <>
-    {loader? (
+    {loader? (    
       <Loader />
     ): (
       <div className="mx-auto max-w-[1024px] max-[1024px]:px-10">
