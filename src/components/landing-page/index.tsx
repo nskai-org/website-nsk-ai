@@ -1,11 +1,19 @@
-import HeroSectionLayout from "./hero-section"
+import JoinCommunity from "./hero-section/join-community/JoinCommunity";
+// import Blog from "./blog/Blog";
+import HeroSectionLayout from "./hero-section";
+import Overlay from "./navigation/navbar/Overlay";
 
 const LandingPageLayout = () => {
   return (
-    <div className="overflow-hidden">
-      <HeroSectionLayout />
-    </div>
-  )
-}
+    <>
+      <Overlay />
+      <div>
+        <HeroSectionLayout />
+        <JoinCommunity />
+        {/* <Blog /> */}
+      </div>
+    </>
+  );
+};
 
-export default LandingPageLayout
+export default LandingPageLayout;
