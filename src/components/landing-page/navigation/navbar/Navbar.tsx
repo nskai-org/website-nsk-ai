@@ -24,7 +24,7 @@ const Navbar = () => {
           </p>
         ))}
         <Hamburger
-          className="md:hidden text-4xl text-[#FE0000]"
+          className="md:hidden text-3xl text-[#FE0000]"
           onClick={() => handleNavbar("SHOW_NAV")}
         />
       </div>

@@ -19,7 +19,7 @@ function App() {
     {loader? (    
       <Loader />
     ): (
-      <div className="mx-auto max-w-[1024px] max-[1024px]:px-10">
+      <div className="mx-auto max-w-[1024px] max-[1024px]:px-10 max-[768px]:px-4 px-4">
         <RouterProvider router={router}/>
       </div>
     )}

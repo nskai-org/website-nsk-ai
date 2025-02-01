@@ -2,7 +2,7 @@ import { Exclamation, LearnMore, Rectangle } from "../../../assets/svg";
 
 const OurStory = () => {
   return (
-    <div className="py-28 flex gap-14" data-aos="fade-up">
+    <div className="py-28 flex md:flex-row flex-col gap-14" data-aos="fade-up">
       <div className="flex flex-col gap-5">
         <h1 className="text-5xl max-w-51 font-bold rotate-[-5.42deg]">
           Here's our story
@@ -15,8 +15,8 @@ const OurStory = () => {
       </div>
       <div className="relative">
         <img src="./our-story-1.svg" alt="Big_Bg"  className="relative z-30"/>
-        <img className="absolute top-[-20px] left-[-6rem]" src={Exclamation} alt="Exclamation" />
-        <img className="absolute top-[-3rem] right-[-3rem]" src={Rectangle} alt="Exclamation" />
+        <img className="absolute top-[-20px] right-[-1rem] w-auto md:left-[-6rem]" src={Exclamation} alt="Exclamation" />
+        <img className="absolute top-[-3rem] right-[-3rem] hidden md:block" src={Rectangle} alt="Rectangle" />
       </div>
     </div>
   );
