@@ -1,5 +1,5 @@
 import JoinCommunity from "./hero-section/join-community/JoinCommunity";
-// import Blog from "./blog/Blog";
+import Blog from "./blog/Blog";
 import HeroSectionLayout from "./hero-section";
 import Overlay from "./navigation/navbar/Overlay";
 
@@ -10,7 +10,7 @@ const LandingPageLayout = () => {
       <div>
         <HeroSectionLayout />
         <JoinCommunity />
-        {/* <Blog /> */}
+        <Blog />
       </div>
     </>
   );
