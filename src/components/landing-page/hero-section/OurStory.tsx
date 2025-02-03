@@ -7,7 +7,7 @@ const OurStory = () => {
         <h1 className="text-3xl sm:text-5xl max-w-51 font-bold rotate-[-5.42deg]">
           Here's our story
         </h1>
-        <p className="md:max-w-84 py-2 pr-15 rotate-[-2.28deg] font-normal">
+        <p className="md:max-w-84 py-2 md:pr-15 rotate-[-2.28deg] font-normal">
           On a mission to help 100 million people by solving some of the
           toughest challenges facing humanity.
         </p>
