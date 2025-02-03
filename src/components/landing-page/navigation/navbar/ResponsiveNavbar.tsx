@@ -15,7 +15,7 @@ const ResponsiveNavbar = () => {
       <img src="./logo.svg" alt="logo" className="mb-8" />
       <div className="flex items-center gap-4 flex-col">
         {navbar.map((item, idx) => (
-          <p key={idx} className="hover:text-[#FE0000] cursor-pointer" onClick={()=>handleNavbar("SHOW_NAV")}>
+          <p key={idx} className="hover:text-[#FE0000] cursor-pointer" onClick={()=>handleNavbar("HIDE_NAV")}>
             {item.text}
           </p>
         ))}
