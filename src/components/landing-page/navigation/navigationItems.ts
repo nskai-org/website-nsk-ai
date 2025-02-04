@@ -6,5 +6,11 @@ export const Navigation = [
       { text: "Community", link: "/" },
       { text: "Blog", link: "/" },
     ],
+    footer: [
+      { text: "Careers", link: "/" },
+      { text: "Contact", link: "/" },
+      { text: "Data Policy", link: "/" },
+      { text: "Terms", link: "/" },
+    ],
   },
 ];
