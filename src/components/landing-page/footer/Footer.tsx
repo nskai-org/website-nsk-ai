@@ -16,7 +16,7 @@ const Footer = () => {
             </NavLink>
           ))}
         </div>
-        <p>© 2020 Designership. All rights reserved.</p>
+        <p>© 2020 Designership. All rights reserved</p>
       </div>
     </div>
   );
