@@ -10,7 +10,9 @@ const Footer = () => {
         <div className="flex items-center sm:gap-6 gap-3 flex-col sm:flex-row">
           {footer.map((item, idx) => (
             <NavLink to={item.link}>
-              <p className="hover:text-[#FE0000]" key={idx}>{item.text}</p>
+              <p className="hover:text-[#FE0000]" key={idx}>
+                {item.text}
+              </p>
             </NavLink>
           ))}
         </div>
