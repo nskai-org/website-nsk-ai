@@ -1,10 +1,10 @@
 export const Navigation = [
   {
     navbar: [
-      { text: "About Us", link: "/" },
+      { text: "About Us", link: "#about" },
       { text: "Projects", link: "/" },
-      { text: "Community", link: "/" },
-      { text: "Blog", link: "/" },
+      { text: "Community", link: "#community" },
+      { text: "Blog", link: "#blog" },
     ],
     footer: [
       { text: "Careers", link: "/" },

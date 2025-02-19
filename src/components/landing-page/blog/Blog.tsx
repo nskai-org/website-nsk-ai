@@ -1,21 +1,27 @@
 import { BlogItems } from "./BlogItems";
-import { HorizontalLine,VerticalLine } from "../../../assets/svg";
+import { HorizontalLine, VerticalLine } from "../../../assets/svg";
 
 const Blog = () => {
   return (
-    <div className="py-11 sm:py-28">
+    <div className="py-11 sm:py-28" id="blog">
       <h1 className="text-3xl sm:text-5xl font-bold rotate-[-3.57deg] text-center mb-11">
         Check out our blog
       </h1>
       <div className="grid md:grid-rows-2 md:grid-cols-2 grid-rows-3 md:gap-6 gap-y-6 relative">
-        <img className="absolute left-[49.5%] hidden md:block" src={VerticalLine} alt="" />
-        <img className="absolute top-[50%] right-[-35px] hidden md:block" src={HorizontalLine} alt="" />
+        <img
+          className="absolute left-[49.5%] hidden md:block"
+          src={VerticalLine}
+          alt=""
+        />
+        <img
+          className="absolute top-[50%] right-[-35px] hidden md:block"
+          src={HorizontalLine}
+          alt=""
+        />
         {BlogItems.map((item, idx) => (
           <div
             key={idx}
-            className={`bg[url(${
-              item.img
-            })] bg-no-repeat bg-cover relative ${
+            className={`bg[url(${item.img})] bg-no-repeat bg-cover relative ${
               idx == 0 ? "md:row-span-2 md:h-166 h-88" : "md:h-full md:w-128"
             }`}
             style={{ backgroundImage: `url(${item.img})` }}

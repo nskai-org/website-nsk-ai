@@ -11,17 +11,25 @@ const Navbar = () => {
       <ResponsiveNavbar />
       <div className="flex items-center gap-12 justify-between md:justify-center py-10 lg:px-10 cursor-pointer">
         {navbar.slice(0, 2).map((item, idx) => (
-          <p key={idx} className="hover:text-[#FE0000] md:block hidden">
+          <a
+            href={item.link}
+            key={idx}
+            className="hover:text-[#FE0000] md:block hidden"
+          >
             {item.text}
-          </p>
+          </a>
         ))}
         <Link to="/">
           <img className="md:mx-14" src="./logo.svg" alt="nsk.ai_logo" />
         </Link>
         {navbar.slice(2, 4).map((item, idx) => (
-          <p key={idx} className="hover:text-[#FE0000] md:block hidden">
+          <a
+            href={item.link}
+            key={idx}
+            className="hover:text-[#FE0000] md:block hidden"
+          >
             {item.text}
-          </p>
+          </a>
         ))}
         <Hamburger
           className="md:hidden text-3xl text-[#FE0000]"
