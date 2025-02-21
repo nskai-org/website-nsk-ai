@@ -13,18 +13,19 @@ const ResponsiveNavbar = () => {
         isNavOpen ? "translate-x-0" : "translate-x-[-900px]"
       }`}
     >
-      <NavLink to="/" onClick={()=>handleNavbar("HIDE_NAV")}>
+      <NavLink to="/" onClick={() => handleNavbar("HIDE_NAV")}>
         <img src="./logo.svg" alt="logo" className="mb-8" />
       </NavLink>
       <div className="flex items-center gap-4 flex-col">
         {navbar.map((item, idx) => (
-          <p
+          <a
+            href={item.link}
             key={idx}
             className="hover:text-[#FE0000] cursor-pointer"
             onClick={() => handleNavbar("HIDE_NAV")}
           >
             {item.text}
-          </p>
+          </a>
         ))}
       </div>
     </div>
