@@ -13,7 +13,9 @@ const HeroSection = () => {
         On a mission to help 100 million people by solving some of the toughest
         challenges facing humanity.
       </p>
-      <img src={JoinCommunity} alt="JoinCommunity" />
+      <a href="https://bit.ly/Join-NSKAI" target="_blank" rel="noreferrer">
+        <img src={JoinCommunity} alt="JoinCommunity" />
+      </a>
     </div>
   );
 };
