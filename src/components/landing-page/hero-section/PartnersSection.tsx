@@ -8,7 +8,7 @@ const PartnersSection: React.FC = () => {
         <img
           src={Collaborators}
           alt="NSK.AI Collaborators"
-          className="h-[800px]"
+          className="h-[400px] md:h-[800px]"
         />
       </div>
     </section>
