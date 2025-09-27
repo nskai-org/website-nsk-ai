@@ -6,7 +6,7 @@ const JoinCommunity = () => {
       <h1 className="text-3xl sm:text-5xl font-bold rotate-[2.64deg] mb-14 md:pl-40 text-center md:text-left">
         Get in touch with us
       </h1>
-      <div className="flex gap-14 items-center flex-col md:flex-row">
+      <div className="flex gap-14 items-center flex-col lg:flex-row">
         <img src="./join-community.svg" alt="JoinUs" />
         <div className="relative">
           <img src={GetInTouch} alt="JoinCommunity" />

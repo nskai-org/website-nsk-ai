@@ -2,7 +2,7 @@ export const Navigation = [
   {
     navbar: [
       { text: "About Us", link: "#about" },
-      { text: "Projects", link: "/" },
+      { text: "Projects", link: "/projects" },
       { text: "Community", link: "#community" },
       { text: "Blog", link: "#blog" },
     ],

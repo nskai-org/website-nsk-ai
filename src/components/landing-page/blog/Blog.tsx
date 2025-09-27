@@ -3,7 +3,7 @@ import { HorizontalLine, VerticalLine } from "../../../assets/svg";
 
 const Blog = () => {
   return (
-    <div className="py-11 sm:py-28" id="blog">
+    <div className="py-11 mt-48 sm:py-28 block md:hidden lg:block" id="blog">
       <h1 className="text-3xl sm:text-5xl font-bold rotate-[-3.57deg] text-center mb-11">
         Check out our blog
       </h1>
