@@ -1,6 +1,6 @@
 import React from "react";
 
-import testimonialVideo from "../../assets/testimonial-video/testimonial-video.mp4";
+import testimonialVideo from "../../assets/testimonial-video/testimonial-video-compressed.mp4";
 
 type TestimonialVideoProps = {
   caption?: string; // Optional caption under the video
