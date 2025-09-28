@@ -7,11 +7,7 @@ const HeroSection = () => {
       data-aos="fade-up"
       className="flex flex-col items-center justify-center gap-6 sm:py-44 py-11"
     >
-      {/* Glowing span */}
-
-      {/* <span className="px-6 py-2 text-sm text-center font-semibold uppercase rounded-full border-2 border-[#ff0004] text-[#ff0004] animate-glow">
-        Check highlights for our just concluded bootcamp
-      </span> */}
+      {/* Glowing notification */}
 
       <Link
         to="/projects"

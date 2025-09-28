@@ -7,57 +7,66 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}
-
-*::-webkit-scrollbar {
-  display: none;
-}
-
-* {
-  scrollbar-width: none; /* Firefox-specific */
-  -ms-overflow-style: none; /* IE and Edge (legacy) */
-}
-
-@keyframes glow {
-  0% {
-    box-shadow: 0 0 2px #ff0004, 0 0 4px #ff0004, 0 0 6px #ff0004;
+  * {
+    scroll-behavior: smooth;
   }
-  50% {
-    box-shadow: 0 0 4px #ff0004, 0 0 6px #ff0004, 0 0 8px #ff0004;
+  body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
   }
-  100% {
-    box-shadow: 0 0 2px #ff0004, 0 0 4px #ff0004, 0 0 6px #ff0004;
-  }
-}
 
-.animate-glow {
-  animation: glow 2s infinite ease-in-out;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
+  *::-webkit-scrollbar {
+    display: none;
   }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
-@keyframes scroll-reverse {
-  0% {
-    transform: translateX(-50%);
+  * {
+    scrollbar-width: none; /* Firefox-specific */
+    -ms-overflow-style: none; /* IE and Edge (legacy) */
   }
-  100% {
-    transform: translateX(0);
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 2px #ff0004, 0 0 4px #ff0004, 0 0 6px #ff0004;
+    }
+    50% {
+      box-shadow: 0 0 4px #ff0004, 0 0 6px #ff0004, 0 0 8px #ff0004;
+    }
+    100% {
+      box-shadow: 0 0 2px #ff0004, 0 0 4px #ff0004, 0 0 6px #ff0004;
+    }
   }
-}
 
-.animate-scroll {
-  display: flex;
-  animation: scroll 20s linear infinite;
-}
+  .animate-glow {
+    animation: glow 2s infinite ease-in-out;
+  }
 
-.animate-scroll-reverse {
-  display: flex;
-  animation: scroll-reverse 25s linear infinite;
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scroll-reverse {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-scroll {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+
+  .animate-scroll-reverse {
+    display: flex;
+    animation: scroll-reverse 25s linear infinite;
+  }
 }
