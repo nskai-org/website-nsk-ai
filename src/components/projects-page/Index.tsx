@@ -1,4 +1,5 @@
 import Overlay from "../landing-page/navigation/navbar/Overlay";
+import Footer from "../landing-page/footer/Footer";
 import Projects from "./Projects";
 
 const ProjectsPageLayout = () => {
@@ -7,6 +8,7 @@ const ProjectsPageLayout = () => {
       <Overlay />
       <div>
         <Projects />
+        <Footer />
       </div>
     </>
   );
