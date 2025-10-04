@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
             </div>
           ))
         ) : (
-          <div className="text-center text-black py-16 border rounded-lg">
+          <div className="text-center text-black py-16">
             <h2 className="text-2xl font-bold mb-2">
               No {activeTab} projects right now
             </h2>

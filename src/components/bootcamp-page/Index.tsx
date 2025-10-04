@@ -6,7 +6,7 @@ import GuestSpeakers from "../landing-page/hero-section/GuestSpeakers";
 import Footer from "../landing-page/footer/Footer";
 import Hosts from "./Hosts";
 import TestimonialVideo from "./VideoTestimonial";
-import PartnersSection from "../landing-page/hero-section/PartnersSection";
+// import PartnersSection from "../landing-page/hero-section/PartnersSection";
 
 const BootcampPageLayout: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const BootcampPageLayout: React.FC = () => {
         <Hosts />
         <GuestSpeakers />
         <TestimonialVideo />
-        <PartnersSection />
+        {/* <PartnersSection /> */}
         <Footer />
       </div>
     </>

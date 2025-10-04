@@ -22,7 +22,7 @@ const tools = [
 
 const SkillsSection: React.FC = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-20 bg-[#1e1e1e] rounded-2xl">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-6">
         {/* Left Side Image */}
 
@@ -35,11 +35,11 @@ const SkillsSection: React.FC = () => {
         </div>
 
         {/* Right Side Content */}
-        <div className="text-black">
+        <div className="text-white">
           <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-6">
             Build mastery through hands-on projects
           </h2>
-          <p className="text-lg text-gray-700 mb-6">
+          <p className="text-lg text-gray-300 mb-6">
             Get your hands dirty in real-world projects using cutting-edge
             tools. Work with the latest frameworks and infrastructure to apply
             what you learn in meaningful ways.
@@ -73,7 +73,7 @@ const SkillsSection: React.FC = () => {
             <h4 className="text-lg font-semibold mb-3">
               Demo Day — your chance to shine!
             </h4>
-            <p className="text-gray-700">
+            <p className="text-gray-300">
               Showcase your project at the closing event in front of industry
               leaders, recruiters, and fellow innovators. This is your
               opportunity to demonstrate technical mastery and create new

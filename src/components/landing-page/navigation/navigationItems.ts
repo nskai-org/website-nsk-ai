@@ -8,7 +8,7 @@ export const Navigation = [
     ],
     footer: [
       { text: "Careers", link: "/" },
-      { text: "Contact", link: "/" },
+      { text: "Contact", link: "mailto:admin@nskai.org" },
       { text: "Data Policy", link: "/" },
       { text: "Terms", link: "/" },
     ],
