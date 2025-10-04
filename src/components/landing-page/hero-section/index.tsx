@@ -1,12 +1,12 @@
 import HeroSection from "./HeroSection";
 import OurStory from "./OurStory";
-import PartnersSection from "./PartnersSection";
+// import PartnersSection from "./PartnersSection";
 
 const HeroSectionLayout = () => {
   return (
     <div>
       <HeroSection />
-      <PartnersSection />
+      {/* <PartnersSection /> */}
       <OurStory />
     </div>
   );
